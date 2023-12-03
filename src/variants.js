@@ -31,6 +31,7 @@ export const staggerContainer = (staggerChildren, delayChildren) => {
   };
 };
 
+//plate rotation animation
 export const plateVariants = {
   hidden: {
     x: '120%',
