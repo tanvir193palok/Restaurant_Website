@@ -51,7 +51,7 @@ const Header = () => {
 
   //nav state
   const [nav, setNav] = useState(false);
-  
+
   //Event listener
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -72,7 +72,6 @@ const Header = () => {
         className="container mx-auto"
       >
         <div className="flex justify-between items-center px-4 lg:px-0 relative text-white">
-
           {/* menu button */}
           <motion.div
             variants={fadeIn("down", "tween", 1, 1.4)}
@@ -98,7 +97,10 @@ const Header = () => {
           </motion.div>
 
           {/* logo */}
-          <motion.div variants={fadeIn("down", "tween", 1.2, 1.4)}>
+          <motion.div
+            variants={fadeIn("down", "tween", 1.2, 1.4)}
+            className="order-1 lg:order-none lg:ml-[11rem]"
+          >
             <a href="#">
               <img
                 className={`${
