@@ -121,7 +121,7 @@ const Reservation = () => {
           </div>
           {/* button */}
           <div className="max-w-[316px] mx-auto flex justify-center">
-            <button className="btn capitalize w-full/3 lg:w-auto">
+            <button className="btn capitalize w-full lg:w-auto">
               {btnText}
             </button>
           </div>
